@@ -1,8 +1,16 @@
-# Pdf-s-Select
-Script para juntar arquivos por meio de argumentos no comando.
+# Script para extrair paginas de pdf
+Requisito: python pip
 
-Para executar: Python {local do script} {pdf's a concatenar}.
+Script criado utilizando a biblioteca pdf2image versão 1.16.0
+`pip install pdf2image==1.16.0`
+
+Para executar: python {local do script} {pdf}
+#
 
 É possivel automatizar script para trabalhar com os arquivos selecionados através do explorador Thunar
 
-Thunar -> python {local do script} %F
+Thunar -> Edit Custom Actions
+
+Command: python {local do script} %f
+
+File Pattern: *.pdf
